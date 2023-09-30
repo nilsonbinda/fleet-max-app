@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:#f1f1f1f1;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem;
+}
+
+section{
+    background-color: white;
+    border: solid 1px color(white);
+    border-radius: 10px;
+    height: 100vh;
+    padding: 5rem;
+}
+
+iframe{
+    width: 50rem;
+    height: 100%;
+}
